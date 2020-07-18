@@ -1,3 +1,35 @@
 body {
     background-color: lavender;
 }
+
+@media only screen and (max-width: 980px) {
+    body {
+      background-color: lightblue;
+    }
+
+    /* .wrapper {
+        width: 100%;
+        padding: 20px;
+      }
+
+    #test1,
+    #test2 {
+      width: 100%;
+    }
+  
+    #test2 {
+      margin-top: 40px;
+    } */
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: lightcyan;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    body {
+      background-color: lightseagreen;
+    }
+  }
