@@ -6,6 +6,11 @@ footer {
     background-color: gray;
 }
 
+figcaption {
+  font-size: 11px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 980px) {
     body {
       background-color: lightblue;
