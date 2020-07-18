@@ -3,7 +3,14 @@ body {
 }
 
 footer {
-    background-color: gray;
+    background-color: #333;
+    padding: 20px;
+    border-top: 7px;
+    border-top-style: solid;
+    border-top-color: teal;
+    text-align: center;
+    font-size: 22px;
+    color: whitesmoke;
 }
 
 figcaption {
