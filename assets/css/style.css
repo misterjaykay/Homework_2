@@ -32,6 +32,10 @@ h5 {
   padding-bottom: 5px;
 }
 
+article p {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 @media only screen and (max-width: 980px) {
     body {
       background-color: lightblue;
