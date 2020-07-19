@@ -8,6 +8,18 @@ body {
   line-height: 1.5;
 }
 
+header {
+  background-color: whitesmoke;
+}
+
+header div span {
+ float: left;
+}
+
+.clearfloat {
+  clear: both;
+}
+
 footer {
   background-color: #333;
   padding: 20px;
@@ -24,12 +36,21 @@ figcaption {
   text-align: center;
 }
 
+h1 {
+  font-family: 'Rowdies', cursive;
+  color: white;
+}
+
 h5 {
   background-color: teal;
   color: white;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+a {
+  font-weight: bold;
 }
 
 article p {
