@@ -28,7 +28,8 @@ header div span {
 footer {
   margin-top: auto;
   background-color: #333;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   border-top: 7px;
   border-top-style: solid;
   border-top-color: #18d9b9;
@@ -86,53 +87,38 @@ footer div {
   clear: both;
 }
 
-@media only screen and (max-width: 980px) {
+.responsive {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
     body {
       background-color: lightblue;
     }
-
-    /* #test1,
-    #test2,
-    #test3 {
+    .responsive {
+      float: left;
       width: 100%;
+      height: auto;
     }
   
-    #test2 {
-      margin-top: 20px;
-      margin-bottom: 20px;
-    } */
   }
 
   @media only screen and (max-width: 768px) {
     body {
       background-color: lightcyan;
     }
-
-    #test1,
-    #test2,
-    #test3 {
+    .responsive {
+      float: left;
       width: 100%;
+      height: auto;
     }
-
-    #test2 {
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
+    
   }
 
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 375px) {
     body {
       background-color: lightseagreen;
     }
 
-    /* #test1,
-    #test2,
-    #test3 {
-      width: 75%;
-    }
 
-    #test2 {
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }    */
   }
