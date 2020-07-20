@@ -1,1 +1,2 @@
-# Homework_2
+# Homework 2 - Responsive Portfolio
+

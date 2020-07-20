@@ -16,24 +16,27 @@
 <body class="d-flex flex-column">
     <header>
         <div class="container">
-            <span class="navbar-brand px-3">
-                <span class="clearfloat"></span>
-                <h1>Jonghyun Kang</h1>
-            </span>
-            
-            <nav class="navbar navbar-expand navbar-light"> 
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Jonghyun Kang</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                        data-target="#navbarToggler01" aria-controls="navbarToggler01" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler01">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">About Me</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                      <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                </ul>
-            </nav>
+                  </ul>
+                </div>
+              </nav>
         </div>
     </header>
     <section class="container my-5">
@@ -83,6 +86,9 @@
             </ul>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     
 </body>
 
