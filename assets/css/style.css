@@ -85,34 +85,16 @@ footer div {
     body {
       background-color: lightblue;
     }
-    .responsive {
-      float: left;
-      width: 100%;
-      height: auto;
-    }
-  
   }
 
   @media only screen and (max-width: 768px) {
     body {
       background-color: lightcyan;
     }
-    .responsive {
-      float: left;
-      width: 100%;
-      height: auto;
-    }
-    
   }
 
   @media only screen and (max-width: 425px) {
     body {
       background-color: lightseagreen;
     }
-    .responsive {
-      float: left;
-      width: 100%;
-      height: auto;
-    }
-
   }
