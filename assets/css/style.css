@@ -29,41 +29,38 @@ footer {
   color: whitesmoke;
 }
 
+/* caption below image on about me page */
 #caption{
   font-size: 11px;
   text-align: center;
 }
 
+/* 'Rowdies' font for navigation bar and main header for each pages */
 nav, h2 {
   font-family: 'Rowdies', cursive;
-}
-
-h5 {
-  background-color: #18d9b9;
-  color: white;
-  font-size: 13px;
-  text-align: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
 }
 
 a {
   font-weight: bold;
 }
 
+/* 'Titillium Web' font for about me page paragraphs */
 article p {
   font-family: 'Titillium Web', sans-serif;
 }
 
+/* footer copyright */
 footer p {
   float: left;
   padding: 5px;
 }
 
+/* footer sns icon and links */
 footer ul {
   float: right;
 }
 
+/* footer sns icon and links */
 footer ul li {
  
  display: inline-block;
@@ -73,10 +70,12 @@ footer ul li {
   
 }
 
-footer div {
+/* clearing float ending before in footer */
+.clearfloat {
   clear: both;
 }
 
+/* about me page main image responsive code */
 .responsive {
   width: 100%;
 }
@@ -87,13 +86,13 @@ footer div {
     }
   }
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     body {
       background-color: lightcyan;
     }
   }
 
-  @media only screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
     body {
       background-color: lightseagreen;
     }
