@@ -29,14 +29,13 @@ footer {
   color: whitesmoke;
 }
 
-figcaption {
+#caption{
   font-size: 11px;
   text-align: center;
 }
 
-nav {
+nav, h2 {
   font-family: 'Rowdies', cursive;
-
 }
 
 h5 {
