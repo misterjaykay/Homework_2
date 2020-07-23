@@ -21,7 +21,7 @@ In this activity, I created html pages for my future portfolio with the HTML/CSS
 
 Each pages ``index.html,portfolio.html,contact.html`` were made to linked to each other using navigation bar on top. 
 
-It is also responsive designed, so If you are viewing pages from different devices (mobile phone, note book, tablet, etc) it will have responsive view for diffrent devices.
+It is also responsive designed, so If you view pages from different devices (mobile phone, note book, tablet, etc) it will have responsive view for each diffrent devices.
 
 This page is created just for my portfolio and it will be update soon with more detailed design and more interactive action to it, after I learn more new Technologies/Languages.
 
