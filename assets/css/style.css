@@ -2,11 +2,11 @@ html {
   height: 100%;
 }
 
-body {
+/* body {
   background-color: lavender;
   height: 100%;
   line-height: 1.5;
-}
+} */
 
 header {
   background-color: whitesmoke;
@@ -33,7 +33,7 @@ footer {
 h5 {
   background-color: #18d9b9;
   color: white;
-  font-size: 13px;
+  font-size: 17px;
   text-align: center;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -90,7 +90,27 @@ footer ul li {
   width: 100%;
 }
 
-@media only screen and (max-width: 1024px) {
+body {
+  height: 100%;
+  line-height: 1.5;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* @media only screen and (max-width: 1024px) {
     body {
       background-color: lightblue;
     }
@@ -106,4 +126,4 @@ footer ul li {
     body {
       background-color: lavenderblush;
     }
-  }
+  } */
