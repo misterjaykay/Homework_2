@@ -30,7 +30,7 @@ footer {
 }
 
 /* this is for the text on the each portfolio images */
-h5 {
+.card-body p {
   background-color: #18d9b9;
   color: white;
   font-size: 17px;
