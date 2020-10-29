@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   background-color: lavender;
   height: 100%;
   line-height: 1.5;
@@ -13,7 +13,6 @@ body {
   background-color: whitesmoke;
   padding-top: 200px;
   padding-bottom: 200px;
-  
 }
 
 header {
@@ -37,7 +36,7 @@ footer {
 }
 
 /* caption below image on about me page */
-#caption{
+#caption {
   font-size: 11px;
   text-align: center;
 }
@@ -57,7 +56,7 @@ a {
 
 /* 'Titillium Web' font for about me page paragraphs */
 article p {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   /* font-family: 'Open Sans Condensed', sans-serif; */
 }
 
@@ -74,12 +73,16 @@ footer ul {
 
 /* footer sns icon and links */
 footer ul li {
- 
- display: inline-block;
- font-size: 10px;
- padding-right: 5px;
- padding-left: 5px;
-  
+  display: inline-block;
+  font-size: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.card img {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.125);
+  border-width: 1px;
 }
 
 /* clearing float ending before in footer */
@@ -91,7 +94,6 @@ footer ul li {
 .responsive {
   width: 100%;
 }
-
 
 /* gradient background */
 /* body {
@@ -124,10 +126,33 @@ footer ul li {
     body {
       background-color: lightcyan;
     }
-  }
+  } */
 
 @media only screen and (max-width: 425px) {
-    body {
-      background-color: lavenderblush;
-    }
-  } */
+  .bulma,
+  .express,
+  .mongodb,
+  .mysql {
+    height: 25px;
+  }
+
+  #contact-card-one {
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+  #contact-card-two {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #contact-card-three {
+    margin-left: 50px;
+  }
+
+  #contact-card-four {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+  }
+}
