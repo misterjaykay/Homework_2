@@ -2,16 +2,18 @@ html {
   height: 100%;
 }
 
-/* body {
+body {
+  font-family: 'Titillium Web', sans-serif;
   background-color: lavender;
   height: 100%;
   line-height: 1.5;
-} */
+}
 
 .jumbotron {
   background-color: whitesmoke;
   padding-top: 200px;
   padding-bottom: 200px;
+  
 }
 
 header {
@@ -34,25 +36,19 @@ footer {
   color: whitesmoke;
 }
 
-/* this is for the text on the each portfolio images */
-.card-body p {
-  background-color: #18d9b9;
-  color: white;
-  font-size: 17px;
-  text-align: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
 /* caption below image on about me page */
 #caption{
   font-size: 11px;
   text-align: center;
 }
 
-/* 'Rowdies' font for navigation bar and main header for each pages */
-nav, h2 {
-  font-family: 'Rowdies', cursive;
+.nav-mid-align {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-mid-align ul li {
+  margin-right: 70px;
 }
 
 a {
@@ -62,6 +58,7 @@ a {
 /* 'Titillium Web' font for about me page paragraphs */
 article p {
   font-family: 'Titillium Web', sans-serif;
+  /* font-family: 'Open Sans Condensed', sans-serif; */
 }
 
 /* footer copyright */
@@ -95,7 +92,9 @@ footer ul li {
   width: 100%;
 }
 
-body {
+
+/* gradient background */
+/* body {
   height: 100%;
   line-height: 1.5;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -113,7 +112,7 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 
 /* @media only screen and (max-width: 1024px) {
     body {

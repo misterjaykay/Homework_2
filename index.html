@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- google font link-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rowdies&family=Titillium+Web:wght@400;700&display=swap"
         rel="stylesheet">
     <!-- font awesome link & animate css-->
@@ -26,18 +27,13 @@
     <header>
         <div class="container">
             <!-- nav bar starts here -->
-            <nav class="navbar navbar-expand-sm navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">
-                    <!-- nav bar logo here -->
-                    <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top"
-                        alt="JH logo">
-                    Jonghyun Kang</a>
+            <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01"
                     aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarToggler01">
-                    <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse nav-mid-align" id="navbarToggler01">
+                    <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">About Me</a>
                         </li>
@@ -53,20 +49,22 @@
         </div>
     </header>
     <div class="jumbotron text-center mt-0">
-        <h1 class="display-4 animate__animated animate__backInDown">Hello, there!</h1>
+        <h1 class="display-4 animate__animated animate__backInDown">Jonghyun Kang</h1>
         <hr>
         <p class="lead animate__animated animate__bounceInLeft">
-            Hello, My name is Jonghyun Kang,
+            I am a Full Stack Web Developer,
             <br>
-            also known as Chris Kang.
+            Loves JavaScript and React
             <br>
-            I am Full Stack Web Developer,
+            ISFJ personality type
             <br>
-            I love to code with JavaScript and React.
+            Determined
             <br>
-            I am ISFJ personality type.
+            Self-Controlled
             <br>
-            My main characteristics are Determination, Self-Control, Shy, but Kindess.
+            Shy, but also Kind
+            <br>
+            Loves Food and Games :D
         </p>
     </div>
     <!-- header ends here -->
@@ -76,9 +74,8 @@
 
         <!-- MYSELF EXPLANATION -->
         <div class="row">
-            <div class="col-lg-8 col-md-8 border rounded py-4 mb-5 mr-3 bg-light">
+            <div class="offset-md-2 col-md-8 border rounded py-4 mb-5 mr-3 bg-light">
                 <h2 id="myself" class="text-center">About Me</h2>
-                <p class="text-center">Little bit about myself</p>
                 <hr>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
@@ -107,41 +104,26 @@
                             I am actively looking to collaborate or join for any project that are involved with React.js
                             or JavaScript.
                             I am also trying to polish my React.js skills and learn python for now.
+                            <br>
+                            You can also find my portofolio in React version in
+                            <a href="https://react-portfolio-jhk.herokuapp.com/">
+                                <span>here</span>
+                            </a>
                         </p>
                     </article>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3">
-                <div class="row">
-                    <!-- py-4 ml-3 -->
-                    <div class="col-lg-12 col-md-12 py-4 mb-3 rounded bg-light text-center">
-                        <h2>React Portfolio</h2>
-                        <hr>
-                        <a href="https://react-portfolio-jhk.herokuapp.com/">
-                            <span>Click here for react version</span>
-                        </a>
-                    </div>
-                    <div class="col-lg-12 col-md-12 py-4 rounded bg-light text-center">
-                        <h2>Time</h2>
-                        <hr>
-                        <h4 class="date-goes-here">date</h4>
-                        <h4 class="time-goes-here">time</h4>
-                        <!-- <img style="object-fit: fill;" src="assets/images/spongebob-army.jpg" alt="spongebob army"> -->
-                    </div>
                 </div>
             </div>
         </div>
 
         <!-- SKILL SETS -->
         <div class="row">
-            <div class="col-lg-12 col-md-12 border rounded py-4 mt-5 mb-5 mr-3 bg-light">
+            <div class="offset-md-2 col-md-8 border rounded py-4 mt-5 mb-5 mr-3 bg-light">
                 <h2 id="portofolio" class="text-center">My Skills</h2>
-                <p class="text-center">Deployed Page will bring you to the acutal content page.</p>
                 <hr>
 
                 <!-- First Row -->
                 <div class="row mt-5 mb-5 text-center">
-                    <div class="col-md-2">
+                    <div class="offset-md-2 col-md-2">
                         <i style="font-size:48px;" class="fab fa-react"></i>
                         <br>
                         <span>React.js</span>
@@ -161,7 +143,12 @@
                         <br>
                         <span>CSS3</span>
                     </div>
-                    <div class="col-md-2">
+
+                </div>
+
+                <!-- Second Row -->
+                <div class="row mt-5 mb-5 text-center">
+                    <div class="offset-md-2 col-md-2">
                         <i style="font-size:48px;" class="fab fa-node"></i>
                         <br>
                         <span>Node.js</span>
@@ -171,10 +158,6 @@
                         <br>
                         <span>Bootstrap</span>
                     </div>
-                </div>
-
-                <!-- Second Row -->
-                <div class="row mt-5 mb-5 text-center">
                     <div class="col-md-2">
                         <i style="font-size:48px;" class="fab fa-git"></i>
                         <br>
@@ -185,7 +168,12 @@
                         <br>
                         <span>NPM</span>
                     </div>
-                    <div class="col-md-2">
+
+                </div>
+
+                <!-- Third Row -->
+                <div class="row mt-5 mb-5 text-center">
+                    <div class="offset-md-2 col-md-2">
                         <img height="50px" src="assets/images/express-js.png" alt="expressjs" />
                         <br>
                         <span>Express.js</span>
@@ -207,6 +195,301 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+
+        <!-- COLLABORATIONS -->
+        <div class="row">
+            <div class="col-md-12 border rounded py-4 mt-5 mb-5 mr-3 bg-light">
+                <h2 id="portofolio" class="text-center">Collaborations</h2>
+                <hr>
+                <div class="row">
+                    <!-- Card One -->
+                    <div class="col-md-4 my-3">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <h4>Stock Watch</h4>
+                            </div>
+                            <img src="assets/images/stock-watch.png" class="card-img-top" alt="Stock Watch">
+                            <div class="card-body">
+                                <p>
+                                    Stock Watch is a single page app where the starter investors can search and compare
+                                    stock prices in a clear and concise environment.
+                                    It enhances the user experience by adding sections for top stocks and a currency
+                                    exchange table.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/misterjaykay/Project-1" target="_blank">
+                                    <i style="font-size:35px;" class="fab fa-github"></i>
+                                </a>
+                                <span>&nbsp&nbsp</span>
+                                <a href="https://misterjaykay.github.io/Project-1/" target="_blank">
+                                    <i style="font-size:35px;" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Two -->
+                    <div class="col-md-4 my-3">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <h4>Local Grub</h4>
+                            </div>
+                            <img src="assets/images/local-grub.png" class="card-img-top" alt="Local Grub">
+                            <div class="card-body">
+                                <p>
+                                    Local Grub is an app that utilizes the 3rd party API to gather local restaurant
+                                    information based off of the user's city.
+                                    This app was created to help & promote small business throughout local communities,
+                                    and give users that chance to explore restaurants besides the franchises.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/eplatvoet/localgrub" target="_blank">
+                                    <i style="font-size:35px;" class="fab fa-github"></i>
+                                </a>
+                                <span>&nbsp&nbsp</span>
+                                <a href="https://localgrub.herokuapp.com/" target="_blank">
+                                    <i style="font-size:35px;" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Three -->
+                    <div class="col-md-4 my-3">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <h4>Refresh</h4>
+                            </div>
+                            <img src="assets/images/refresh-app.png" class="card-img-top" alt="Refresh">
+                            <div class="card-body">
+                                <p>
+                                    Your home is an investment, and you want to ensure that investment continues to
+                                    appreciate over time.
+                                    This requires routine maintenance and updating your home with occasional projects.
+                                    Refresh allows a user to have one place to track all of their home maintenance, from
+                                    small tasks to large projects, in an easy dashboard.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/eplatvoet/localgrub" target="_blank">
+                                    <i style="font-size:35px;" class="fab fa-github"></i>
+                                </a>
+                                <span>&nbsp&nbsp</span>
+                                <a href="https://localgrub.herokuapp.com/" target="_blank">
+                                    <i style="font-size:35px;" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SOLO PROJECTS -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 border rounded py-4 mt-5 mb-5 mr-3 bg-light">
+                <h2 class="text-center">Individual Works</h2>
+                <hr>
+                <div class="row">
+                    <!-- Card One -->
+                    <div class="col-md-4 my-3">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <h4>Weather Dashboard</h4>
+                            </div>
+                            <img src="assets/images/weather.png" class="card-img-top" alt="Weather Dashboard">
+                            <div class="card-body">
+                                <p>
+                                    An app that displays the city weather that user searched.
+                                    It will display current citys weather information along with current date and city's
+                                    temperature, humidity, wind speed, and UV index
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/misterjaykay/weather-dashboard" target="_blank">
+                                    <i style="font-size:35px;" class="fab fa-github"></i>
+                                </a>
+                                <span>&nbsp&nbsp</span>
+                                <a href="https://misterjaykay.github.io/weather-dashboard" target="_blank">
+                                    <i style="font-size:35px;" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Two -->
+                    <div class="col-md-4 my-3">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <h4>Note Taker</h4>
+                            </div>
+                            <img src="assets/images/note-taker.png" class="card-img-top" alt="Note Taker">
+                            <div class="card-body">
+                                <p>
+                                    This app allow users to create and store notes in app for their own use.
+                                    It will also save and re-renders whenever user re-opens it.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/misterjaykay/note-taker" target="_blank">
+                                    <i style="font-size:35px;" class="fab fa-github"></i>
+                                </a>
+                                <span>&nbsp&nbsp</span>
+                                <a href="https://notetaker-jk.herokuapp.com/" target="_blank">
+                                    <i style="font-size:35px;" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Three -->
+                    <div class="col-md-4 my-3">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <h4>Work Day Scheduler</h4>
+                            </div>
+                            <img src="assets/images/workday.png" class="card-img-top" alt="Work Day Scheduler">
+                            <div class="card-body">
+                                <p>
+                                    An app(page) that give you a full working day scheduler,
+                                    that user can input what event they have in certain hours during their work hours.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/misterjaykay/work-day-scheduler" target="_blank">
+                                    <i style="font-size:35px;" class="fab fa-github"></i>
+                                </a>
+                                <span>&nbsp&nbsp</span>
+                                <a href="https://misterjaykay.github.io/work-day-scheduler/" target="_blank">
+                                    <i style="font-size:35px;" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Card One -->
+                    <div class="col-md-4 my-3">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <h4>Workout Tracker</h4>
+                            </div>
+                            <img src="assets/images/workout.png" class="card-img-top" alt="Workout Tracker">
+                            <div class="card-body">
+                                <p>
+                                    This app allows user to store everyday user's workouts and prints out the piecharts
+                                    of users total workout for each day.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/misterjaykay/workout-tracker" target="_blank">
+                                    <i style="font-size:35px;" class="fab fa-github"></i>
+                                </a>
+                                <span>&nbsp&nbsp</span>
+                                <a href="https://workout-tracker-jk.herokuapp.com/" target="_blank">
+                                    <i style="font-size:35px;" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Two -->
+                    <div class="col-md-4 my-3">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <h4>Budget Tracker</h4>
+                            </div>
+                            <img src="assets/images/budget.png" class="card-img-top" alt="Budget Tracker">
+                            <div class="card-body">
+                                <p>
+                                    This app allows user to create/store their earning and spending list on this app
+                                    while online/offline.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/misterjaykay/budget-tracker" target="_blank">
+                                    <i style="font-size:35px;" class="fab fa-github"></i>
+                                </a>
+                                <span>&nbsp&nbsp</span>
+                                <a href="https://budget-tracker-jhk.herokuapp.com/" target="_blank">
+                                    <i style="font-size:35px;" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Three -->
+                    <div class="col-md-4 my-3">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <h4>Employee Directory</h4>
+                            </div>
+                            <img src="assets/images/employee.png" class="card-img-top" alt="Employee Directory">
+                            <div class="card-body">
+                                <p>
+                                    This app allows user to browse company's employee list and filter employee by their
+                                    names.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/misterjaykay/employee-directory" target="_blank">
+                                    <i style="font-size:35px;" class="fab fa-github"></i>
+                                </a>
+                                <span>&nbsp&nbsp</span>
+                                <a href="https://misterjaykay.github.io/employee-directory/" target="_blank">
+                                    <i style="font-size:35px;" class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="offset-md-1 col-md-9 border rounded py-4 mb-5 bg-light text-center">
+                <h2>Connect with me</h2>
+                <hr>
+                <p>
+                    Do you want to hire me? or do you want to start a project with me?
+                    <br>
+                    Whatever the reason is, plase be feel free to contact me, or get connected with me!
+                </p>
+                <div class="row">
+                    <div class="offset-md-1 col-md-4 border rounded py-4 mr-5 bg-light text-center">
+                        <h2>Linkedin</h2>
+                        <hr>
+                        <a href="https://linkedin.com/in/jonghyunkang">
+                            <i style="font-size:60px;" class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 border rounded py-4 bg-light text-center">
+                        <h2>Github</h2>
+                        <hr>
+                        <a href="https://github.com/misterjaykay">
+                            <i style="font-size:60px;" class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-md-1 col-md-4 border rounded mt-5 py-4 mr-5 bg-light text-center">
+                        <h2>Email</h2>
+                        <hr>
+                        <a href="mailto:misterjaykay@gmail.com">
+                            <i style="font-size:60px;" class="far fa-envelope"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 border rounded mt-5 py-4 bg-light text-center">
+                        <h2>Resume</h2>
+                        <hr>
+                        <a href="./assets/resume/jhk-resume.pdf">
+                            <i style="font-size:60px;" class="far fa-file"></i>
+                        </a>
+                        <!-- <embed src="./assets/resume/jhk-resume.pdf" width="900px" height="800px"> -->
+                    </div>
+                </div>
             </div>
         </div>
 
