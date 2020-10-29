@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
-        crossorigin="anonymous">
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- google font link-->
-    <link href="https://fonts.googleapis.com/css2?family=Rowdies&family=Titillium+Web:wght@400;700&display=swap" 
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&family=Titillium+Web:wght@400;700&display=swap"
         rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
     <!-- own stylesheet link -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Jonghyun's Portfolio</title>
@@ -18,46 +21,50 @@
 
 <body class="d-flex flex-column">
     <!-- header starts here -->
+
     <header>
         <div class="container">
             <!-- nav bar starts here -->
             <nav class="navbar navbar-expand-sm navbar-light bg-light">
                 <a class="navbar-brand" href="index.html">
                     <!-- nav bar logo here -->
-                    <img src="assets/images/logo.png" width="30" height="30" 
-                        class="d-inline-block align-top" alt="JH logo">
+                    <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top"
+                        alt="JH logo">
                     Jonghyun Kang</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                        data-target="#navbarToggler01" aria-controls="navbarToggler01" 
-                        aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01"
+                    aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler01">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="index.html">About Me</a>
+                            <a class="nav-link" href="#myself">About Me</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="project.html">Project</a>
-                          </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
-                      </ul>
+                    </ul>
                 </div>
-              </nav>
+            </nav>
         </div>
     </header>
+    <div class="jumbotron text-center mt-0">
+        <h1 class="display-4">Hello, there!</h1>
+        <p class="lead">This is Jonghyun's portfolio.</p>
+    </div>
     <!-- header ends here -->
 
     <!-- main section starts here -->
     <section class="container my-5">
+
+        <!-- MYSELF EXPLANATION -->
         <div class="row">
-            <div class="col-lg-8 col-md-8 border rounded py-4 mr-3 bg-light">
-                <h2 class="text-center">About Me</h2>
+            <div class="col-lg-8 col-md-8 border rounded py-4 mb-5 mr-3 bg-light">
+                <h2 id="myself" class="text-center">About Me</h2>
+                <p class="text-center">Little bit about myself</p>
                 <hr>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
@@ -67,21 +74,25 @@
                     </div>
                     <article class="col-lg-9 col-md-6">
                         <p>
-                            I am Jonghyun Kang, currently enrolled as Rutgers Coding Bootcamp student for Full Stack Flex program which includes frontend & backend developing 
-                            using HTML, CSS, Javascript, Node, Heroku, Git, Github, APIs, AJAX, MongoDB, React, etc. 
+                            I am Jonghyun Kang, a Full Stack (MERN Stack) Web Developer,
                             <br>
-                            I am originally from the sales industry, which I was mainly maintaining relationship between business to businesses.
                             <br>
-                            I am currently having very difficult time learning all these new languages such as HTML, CSS and Javascript, but soon I will get the all fundamentals of it and use it naturally.
-                        </p>
-                    </article>
-                </div>
-                <hr>
-                <div class="row">
-                    <article class="col-lg-10 col-md-10">
-                        <p>
-                            My portfolio is still in the process of being updated; as I am in the middle of completing several language courses.
-                            
+                            Who is recently graduated from Full Stack Web Development Coding Bootcamp from Rutgers
+                            University in NJ,
+                            which includes Front-end & Back-end development
+                            using HTML, CSS, Javascript, Node.js, Heroku, Git, Github, APIs, AJAX, MongoDB(mongoose),
+                            React.js, Express.js, jQuery, and more.
+                            <br>
+                            <br>
+                            I am originally from the costume jewelry industry doing Sales/Marketing Specialist for
+                            several years,
+                            which I was mainly maintaining relationship between business to businesses and handling
+                            marketing for the company.
+                            <br>
+                            <br>
+                            I am actively looking to collaborate or join for any project that are involved with React.js
+                            or JavaScript.
+                            I am also trying to polish my React.js skills and learn python for now.
                         </p>
                     </article>
                 </div>
@@ -90,20 +101,101 @@
                 <div class="row">
                     <!-- py-4 ml-3 -->
                     <div class="col-lg-12 col-md-12 py-4 mb-3 rounded bg-light text-center">
-                        <h2>Time</h2>
+                        <h2>React Portfolio</h2>
                         <hr>
-                        <h4 class="date-goes-here"></h4> 
-                        <h4 class="time-goes-here"></h4> 
-                        <!-- <img style="object-fit: fill;" src="assets/images/spongebob-army.jpg" alt="spongebob army"> -->
+                        <a href="https://react-portfolio-jhk.herokuapp.com/">
+                            <span>Click here for react version</span>
+                        </a>
                     </div>
                     <div class="col-lg-12 col-md-12 py-4 rounded bg-light text-center">
-                        <h2>Blank</h2>
+                        <h2>Time</h2>
                         <hr>
-                        <p>Something will be added later?</p>
+                        <h4 class="date-goes-here">date</h4>
+                        <h4 class="time-goes-here">time</h4>
+                        <!-- <img style="object-fit: fill;" src="assets/images/spongebob-army.jpg" alt="spongebob army"> -->
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- SKILL SETS -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 border rounded py-4 mt-5 mb-5 mr-3 bg-light">
+                <h2 id="portofolio" class="text-center">My Skills</h2>
+                <p class="text-center">Deployed Page will bring you to the acutal content page.</p>
+                <hr>
+
+                <!-- First Row -->
+                <div class="row mt-5 mb-5 text-center">
+                    <div class="col-md-2">
+                        <i style="font-size:48px;" class="fab fa-react"></i>
+                        <br>
+                        <span>React.js</span>
+                    </div>
+                    <div class="col-md-2">
+                        <i style="font-size:48px;" class="fab fa-js-square"></i>
+                        <br>
+                        <span>Javascript</span>
+                    </div>
+                    <div class="col-md-2">
+                        <i style="font-size:48px;" class="fab fa-html5"></i>
+                        <br>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="col-md-2">
+                        <i style="font-size:48px;" class="fab fa-css3-alt"></i>
+                        <br>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="col-md-2">
+                        <i style="font-size:48px;" class="fab fa-node"></i>
+                        <br>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="col-md-2">
+                        <i style="font-size:48px;" class="fab fa-bootstrap"></i>
+                        <br>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+
+                <!-- Second Row -->
+                <div class="row mt-5 mb-5 text-center">
+                    <div class="col-md-2">
+                        <i style="font-size:48px;" class="fab fa-git"></i>
+                        <br>
+                        <span>Git</span>
+                    </div>
+                    <div class="col-md-2">
+                        <i style="font-size:48px;" class="fab fa-npm"></i>
+                        <br>
+                        <span>NPM</span>
+                    </div>
+                    <div class="col-md-2">
+                        <img height="50px" src="assets/images/express-js.png" alt="expressjs" />
+                        <br>
+                        <span>Express.js</span>
+                    </div>
+                    <div class="col-md-2">
+                        <img height="50px" src="assets/images/mongodb.png" alt="mongodb" />
+                        <br>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="col-md-2">
+                        <img height="50px" src="assets/images/bulma.png" alt="bulma" />
+                        <br>
+                        <span>Bulma</span>
+                    </div>
+                    <div class="col-md-2">
+                        <img height="50px" src="assets/images/mysql.png" alt="mysql" />
+                        <br>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </section>
     <!-- main section ends here -->
 
@@ -118,24 +210,24 @@
                     Stay Connected
                 </li>
                 <li><img src="assets/images/linkedin.png" width="20" height="20" alt="Linkedin">
-                    <a href ="https://www.linkedin.com/in/chris-kang-47886468/" target="_blank">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/chris-kang-47886468/" target="_blank">Linkedin</a>
                 </li>
                 <li><img src="assets/images/github.png" width="20" height="20" alt="Github">
-                    <a href ="https://github.com/misterjaykay" target="_blank">Github</a>
+                    <a href="https://github.com/misterjaykay" target="_blank">Github</a>
                 </li>
             </ul>
         </div>
         <div class="clearfloat"></div>
     </footer>
     <!-- footer ends here -->
-    
+
     <!-- scripts for bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="script.js"></script>
-    
+
 </body>
 
 </html>

@@ -1,0 +1,25 @@
+To do list for the future dev.
+
+1. 
+add jumbotron/hero to the pages
+
+2.
+modify the background gradient color.
+(i think this does not look professional.)
+
+3.
+add react portfolio link to it.
+
+4. 
+add remaining project and portfolios.
+
+5. 
+modify a images for the each work.
+(do not use images from google.)
+
+6.
+modify moment.js and put it on jumbotron? or somewhere else.
+
+7.
+***BIGGEST WORK***
+copy the work that you've done, and switch it to bulma framework.
