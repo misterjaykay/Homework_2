@@ -6,11 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- bootstrap link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
-    crossorigin="anonymous">
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- google font link -->
-  <link href="https://fonts.googleapis.com/css2?family=Rowdies&family=Titillium+Web:wght@400;700&display=swap" 
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies&family=Titillium+Web:wght@400;700&display=swap"
     rel="stylesheet">
+  <!-- font awesome link & animate css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- own stylesheet link -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>Contact Info</title>
@@ -20,100 +24,121 @@
   <!-- header starts here -->
   <header>
     <div class="container">
-        <!-- nav bar starts here -->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.png" width="30" height="30" 
-                    class="d-inline-block align-top" alt="JH logo">
-                Jonghyun Kang</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                    data-target="#navbarToggler01" aria-controls="navbarToggler01" 
-                    aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler01">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <!-- nav bar starts here -->
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="JH logo">
+          Jonghyun Kang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01"
+          aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler01">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </header>
+  <div class="jumbotron text-center mt-0">
+    <h1 class="display-4 animate__animated animate__backInDown">Hello, there!</h1>
+    <hr>
+    <p class="lead animate__animated animate__bounceInLeft">
+        Hello, My name is Jonghyun Kang,
+        <br>
+        also known as Chris Kang.
+        <br>
+        I am Full Stack Web Developer,
+        <br>
+        I love to code with JavaScript and React.
+        <br>
+        I am ISFJ personality type.
+        <br>
+        My main characteristics are Determination, Self-Control, Shy, but Kindess.
+    </p>
+</div>
   <!-- header ends here -->
 
   <!-- main section starts here -->
   <section class="container mt-5">
 
     <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 border rounded py-4 mr-3 bg-light">
-        <h2 class="text-center">Contact Form</h2>
+      <div class="offset-md-1 col-md-10 border rounded py-4 mb-5 bg-light text-center">
+        <h2>Connect with me</h2>
         <hr>
-        <!-- contact message submit form here -->
-        <form>
-          <div class="form-group">
-            <label for="formGroupNameInput">Name</label>
-            <input type="text" class="form-control" id="formGroupNameInput" placeholder="John Smith">
-          </div>
-          <div class="form-group">
-            <label for="formGroupEmailInput">Email</label>
-            <input type="text" class="form-control" id="formGroupEmailInput" placeholder="youremail@domain.com">
-          </div>
-          <div class="form-group">
-            <label for="msgFormControlTextarea">Message</label>
-            <textarea class="form-control" id="msgFormControlTextarea" placeholder="Enter Your Message Here" rows="3"></textarea>
-          </div>
-          <div class="input-group">
-            <div class="col-auto my-1">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-            <div class="my-1 mx-1">
-              <a class="mailtoui" href="mailto:misterjaykay@gmail.com">or Email Me</a></button>
-            </div>
-          </div>
-        </form>
+        <p>
+          Do you want to hire me? or do you want to start a project with me?
+          <br>
+          Whatever the reason is, plase be feel free to contact me, or get connected with me!
+        </p>
       </div>
-      <div class="col-lg-3 col-md-3 border rounded py-4 ml-3 bg-light">
-        <h2 class="text-center">Github Link</h2>
+
+      <div class="offset-md-1 col-md-3 border rounded py-4 mr-5 bg-light text-center">
+        <h2>Linkedin</h2>
         <hr>
-        <div class="card text-center">
-          <i class="fas fa-code fa-7x mx-auto mt-2"></i>
-          <div class="card-body">
-            <a href="https://github.com/misterjaykay" class="btn btn-primary">Click</a>
-          </div>
-        </div>
-        <!-- <i class="fas fa-code fa-7x"></i>
-        <p>Click the Icon! :D</p> -->
+        <a href="https://linkedin.com/in/jonghyunkang">
+          <i style="font-size:60px;" class="fab fa-linkedin"></i>
+        </a>
+      </div>
+
+      <div class="col-md-3 border rounded py-4 bg-light text-center">
+        <h2>Github</h2>
+        <hr>
+        <a href="https://github.com/misterjaykay">
+          <i style="font-size:60px;" class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <div class="col-md-3 border rounded py-4 ml-5 bg-light text-center">
+        <h2>Email</h2>
+        <hr>
+        <a href="mailto:misterjaykay@gmail.com">
+          <i style="font-size:60px;" class="far fa-envelope"></i>
+        </a>
       </div>
 
     </div>
-  </section> 
+
+    <div class="row">
+      <div class="offset-md-1 col-md-10 rounded mt-5 mb-5 py-4 bg-light text-center">
+        <h2>Resume</h2>
+        <hr>
+        <div class="row">
+          <div class="col-md-12">
+            <embed src="./assets/resume/jhk-resume.pdf" width="900px" height="800px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- main section ends here -->
 
   <!-- footer starts here -->
   <footer>
     <div class="container">
-        <!-- copyrights -->
-        <p> &copy; Copyright 2020 Jonghyun Kang </p>
-        <!-- sns icon images & links -->
-        <ul style="list-style-type:none;">
-            <li>
-                Stay Connected
-            </li>
-            <li><img src="assets/images/linkedin.png" width="20" height="20" alt="Linkedin">
-                <a href ="https://www.linkedin.com/in/chris-kang-47886468/" target="_blank">Linkedin</a>
-            </li>
-            <li><img src="assets/images/github.png" width="20" height="20" alt="Github">
-                <a href ="https://github.com/misterjaykay" target="_blank">Github</a>
-            </li>
-        </ul>
+      <!-- copyrights -->
+      <p> &copy; Copyright 2020 Jonghyun Kang </p>
+      <!-- sns icon images & links -->
+      <ul style="list-style-type:none;">
+        <li>
+          Stay Connected
+        </li>
+        <li><img src="assets/images/linkedin.png" width="20" height="20" alt="Linkedin">
+          <a href="https://www.linkedin.com/in/chris-kang-47886468/" target="_blank">Linkedin</a>
+        </li>
+        <li><img src="assets/images/github.png" width="20" height="20" alt="Github">
+          <a href="https://github.com/misterjaykay" target="_blank">Github</a>
+        </li>
+      </ul>
     </div>
   </footer>
   <!-- footer ends here -->
@@ -122,8 +147,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" 
-          integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+    integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/mailtoui@1.0.3/dist/mailtoui-min.js"></script>
 </body>
 
